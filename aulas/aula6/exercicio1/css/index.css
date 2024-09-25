@@ -1,0 +1,13 @@
+.dpanel{
+    background-color: rgb(179, 75, 20);
+    width: 800px;
+    height: 600px;
+    position: relative;
+}
+img{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
