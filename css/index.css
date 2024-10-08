@@ -5,7 +5,12 @@ html,body{
 header{
     width: 100%;
     height: 30%;
-    color: purple solid;
+}
+header a:hover{
+    background-color: purple;
+}
+header a:hover{
+    background-color: gray;
 }
 h1{
     background-image: url(../img/nave.png);
@@ -15,6 +20,21 @@ h1{
     height: 90%;
     text-indent: -9999px;
 }
-ul {
+ul{
     padding-left: 20px;
+} 
+main{
+    width: 100%;
+    height: 40%;
+}
+footer{
+    width: 100%;
+    height: 30%;
+    clear: left;
+}
+header a:before{
+    content: '<';
+}
+header a:after{
+    content: '>';
 }
