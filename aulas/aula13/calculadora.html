@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Calculadora.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <form class="calculator__display">
+            <input type="text" class="input2">
+        </form>
+        <div class="calculator__keys">
+            <button onclick="addOperator('+')" class="key--operator" data-action="add">+</button>
+            <button onclick="addOperator('-')" class="key--operator" data-action="subtract">-</button>
+            <button onclick="addOperator('x')" class="key--operator" data-action="multiply">&times;</button>
+            <button onclick="addOperator('÷')" class="key--operator" data-action="divide">÷</button>
+            <button onclick="addNumber('1')">1</button>
+            <button onclick="addNumber('2')">2</button>
+            <button onclick="addNumber('3')">3</button>
+            <button onclick="addNumber('4')">4</button>
+            <button onclick="addNumber('5')">5</button>
+            <button onclick="addNumber('6')">6</button>
+            <button onclick="addNumber('7')">7</button>
+            <button onclick="addNumber('8')">8</button>
+            <button onclick="addNumber('9')">9</button>
+            <button onclick="addNumber('0')">0</button>
+            <button onclick="addDecimal('.')" data-action="decimal">.</button>
+            <button onclick="clearText('AC')" data-action="clear">AC</button>
+            <button class="key--equal" data-action="calculate">=</button>
+        </div>
+    </div>
+
+    <script src="./Calculadora.js"></script>
+</body>
+
+</html>
